@@ -1,0 +1,174 @@
+.react-tabs {
+    font-family: "Manjari";
+    width: 550px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+
+    h1 {
+        margin: 0;
+
+        a {
+            display: block;
+            font-size: 42px;
+            color: #000;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px 0 0 0;
+
+            span {
+                display: block;
+                padding-left: 90px;
+                margin-top: -12px;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .react-tabs__tab--selected {
+        border-color: #FFAA15;
+    }
+
+    .react-tabs__tab {
+        width: 50%;
+        text-align: center;
+    }
+
+    .react-tabs__tab-list {
+
+        margin: 40px 0 10px;
+
+    }
+
+    li:nth-child(1).react-tabs__tab--selected {
+        border-left: none;
+        border-top: 2px solid #FFAA15;
+        border-right: 2px solid #FFAA15;
+    }
+
+    li:nth-child(2).react-tabs__tab--selected {
+        border-right: none;
+        border-top: 2px solid #FFAA15;
+        border-left: 2px solid #FFAA15;
+    }
+
+    h2 {
+        color: #FFAA15;
+        font-size: 36px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .tab-in {
+        padding: 20px 50px 50px 50px;
+    }
+
+    .row {
+        flex-flow: column;
+        margin-bottom: 30px;
+    }
+
+    .row>div {
+        margin-bottom: 5px;
+    }
+
+    .col-form-label {
+        font-size: 16px;
+    }
+
+    .form-control {
+        border-radius: 15px;
+    }
+
+    .btn {
+        width: 100%;
+        background-color: #FFAA15;
+        height: 50px;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .text {
+        text-align: center;
+        padding-top: 10px;
+
+        a {
+            text-decoration: underline;
+            color: #0058FF;
+        }
+    }
+}
+
+.error-txt {
+    color: red;
+}
+
+.signup-sec {
+    padding: 75px 0 !important;
+}
+
+.login-sec,
+.signup-sec {
+    padding: 120px 0;
+
+    .sec-title {
+        font-size: 28px;
+        margin-bottom: 35px;
+    }
+
+    .login-form,
+    .signup-form {
+        width: 450px;
+        margin: 0 auto;
+        border-radius: 20px;
+        background: #fff;
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+        padding: 40px 50px 50px 50px;
+
+        .alert-txt {
+            font-size: 24px;
+            text-align: center;
+            color: #FFAA15;
+            padding: 20px 0;
+        }
+
+        .form-control {
+            border-radius: 15px;
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        .row {
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            width: 100%;
+            color: #fff;
+            background-color: #FFAA15;
+            height: 50px;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+        .text {
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        .alert-text {
+            text-align: center;
+            padding-bottom: 10px;
+            font-weight: bold;
+        }
+
+        a {
+            text-decoration: underline;
+            ;
+        }
+
+    }
+}

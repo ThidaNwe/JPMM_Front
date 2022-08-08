@@ -1,0 +1,17 @@
+#sidemenu{
+    right: 10px;
+    position: fixed;
+    top: 10px;
+    z-index: 9999;
+    button{
+        border: 2px solid #FFAA15;
+        color: #FFAA15;
+    }
+    button:is(:hover,:focus,:active),button:is(:hover,:focus,:active) a{
+        color: #ffffff;
+        background: #FFAA15;
+    }
+    button a{
+        color: #FFAA15;
+    }
+}

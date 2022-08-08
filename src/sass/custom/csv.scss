@@ -1,0 +1,117 @@
+.csvupload-sec{
+    .csv-page{
+        font-family: "Manjari";
+        width: 550px;
+        margin:0 auto 0;
+        border-radius: 20px;
+        // box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+        padding: 20px 0;
+        background: #fff;
+        h1 {
+            margin: 0;
+    
+            a {
+                display: block;
+                font-size: 42px;
+                color: #000;
+                margin: 0 auto;
+                text-align: center;
+    
+                span {
+                    display: block;
+                    padding-left: 90px;
+                    margin-top: -12px;
+                    font-size: 14px;
+                }
+            }
+        }
+        .MuiBox-root {
+            padding: 0;
+            margin:  8% 0!important;
+        }
+        .css-t8t8bc-MuiPaper-root{
+            border: 1px solid #FFAA15;
+            border-radius: 20px;
+            box-shadow: none;
+            padding: 40px 20px;
+        }
+        .MuiBox-root .MuiFormControl-root label{
+            background: #FFAA15!important;
+            border-right: 1px solid #FFAA15!important;
+                color: #fff;
+                padding: 0 0.6rem;
+        }
+        .MuiBox-root .MuiBox-root .MuiFormControl-root:first-of-type {
+            border-radius: 0.25rem;
+            border: none;
+        }
+        
+        .css-ns97g4{
+            border: 1px solid #FFAA15;
+            width: 75%;
+            padding: 0.594rem 0.75rem 0.594rem 0.3rem;
+        }
+        .css-sghohy-MuiButtonBase-root-MuiButton-root{
+            background: #FFAA15!important;
+            border: 1px solid #FFAA15!important;
+            border-radius: 30px;
+        }
+        .css-1rwt2y5-MuiButtonBase-root-MuiButton-root{
+            border: 1px solid #FFAA15!important;
+            color: #FFAA15;
+        }
+        .css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover{
+            background: #FFAA15;
+            color: #fff;
+        }
+        .MuiBox-root .MuiFormControl-root:first-of-type{
+             border:none!important;
+        }
+        .form{
+            position: relative;
+        }
+        .upload{
+            position: absolute;
+            right: 0;
+            top: 4px;
+            width: 100px;
+        }
+        .MuiBox-root .MuiFormControl-root .MuiFormGroup-root .MuiButton-root{
+            width: 200px!important;
+        }
+    }
+    .react-tabs {
+        margin: 80px auto 0;
+    }
+}
+@-moz-document url-prefix() { 
+    .csvupload-sec .csv-page .css-ns97g4{
+        padding: 0.594rem 0.75rem 0.594rem 2.3rem;
+    }
+  }
+@media (max-width:767.9px) {
+    .csvupload-sec {
+        padding: 0 0 0 0;
+        .csv-page{
+            width: 90%;
+            margin: 0 auto;
+            padding: 15px 0;
+            .upload {
+                position: initial;
+                right: 0;
+                top: 0;
+                width: 100%;
+            }
+            .css-ns97g4 {
+                width: 100%;
+            }
+            .MuiBox-root .MuiFormControl-root .MuiFormGroup-root .MuiButton-root{
+                width: 100px!important;
+                border-radius: 0!important;
+            }
+        }
+        .MuiBox-root .MuiBox-root{
+            padding: 15px!important;
+        }
+    } 
+}

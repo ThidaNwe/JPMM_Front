@@ -1,0 +1,293 @@
+html,
+body,
+#root {
+  padding: 0px !important;
+  height:100%;
+  margin: 0px !important;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+}
+
+.copyright {
+  p {
+    text-align: center;
+    font-size: 15px;
+  }
+}
+
+.container-fluid {
+  margin: 30px 0;
+  padding-bottom: 80px;
+}
+
+#root {
+  background: url(../../img/bg_search.png) repeat center;
+}
+
+
+.sec-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 9999;
+
+  .inner-header {
+    display: flex;
+    align-items: center;
+    //justify-content: space-between;
+    width: 100%;
+    padding: 5px 0;
+
+
+    margin: 0;
+
+    a {
+      display: block;
+      font-size: 35px;
+      color: #000;
+
+      span {
+        display: block;
+        padding-left: 62px;
+        margin-top: -12px;
+        font-size: 12px;
+      }
+    }
+
+
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: flex;
+      padding-left: 32%;
+      right: 20px;
+      position: absolute;
+
+      li {
+        margin-right: 20px;
+
+        a {
+          font-size: 16px;
+          color: #000;
+          padding: 6px 12px;
+          display: inline-block;
+        }
+
+        :hover {
+          color: #FFAA15;
+        }
+
+
+      }
+
+
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+/****** Fonts Family ******/
+@font-face {
+  font-family: Pacifico-Regular;
+  src: url("../../font/Pacifico-Regular.ttf");
+}
+
+@font-face {
+  font-family: RobotoMono-MediumItalic;
+  src: url("../../font/RobotoMono-MediumItalic.ttf");
+}
+
+.Pacifico-Regular {
+  font-family: "Pacifico-Regular", "Arial", "Helvetica", sans-serif;
+}
+
+.RobotoMono-MediumItalic {
+  font-family: "RobotoMono-MediumItalic", "Arial", "Helvetica", sans-serif;
+}
+
+.logo {
+  position: fixed;
+  font-size: 42px;
+  display: block;
+  top: -5px;
+  left: 20px;
+  width: 200px;
+
+  h1 a {
+    color: #333;
+    font-size: 40px;
+
+    span {
+      font-size: 11px;
+      position: absolute;
+      bottom: -2px;
+      left: 30px;
+      color: #333;
+    }
+  }
+}
+
+.user-login-sec {
+  position: fixed;
+  top: 5px;
+  right: 20px;
+  font-size: 14px;
+  z-index: 99;
+
+  ul {
+    display: flex;
+    align-items: center;
+
+    li {
+      display: flex;
+
+      a {
+        display: flex;
+        align-items: center;
+
+        span {
+          padding: 0 3px 0 5px;
+        }
+      }
+
+      span {
+        padding: 0 10px 0 5px;
+      }
+    }
+  }
+}
+
+.circlemenu-sec {
+  background: url(../../img/side-menu-bg.png);
+  width: 63px;
+  height: 175px;
+  button{
+    top: 52px;
+    left: 3px;
+    border: 2px solid #FFAA15;
+   
+  }
+  button.CircleMenuItem{
+    border: 2px solid #FFAA15;
+  color: #FFAA15;
+  width: 3em;
+  height: 3em;
+  }
+}
+#sidemenu .kYPDUU{
+  background:rgba(0, 0, 0, 0.3)
+}
+#sidemenu {
+  right: 0;
+  position: fixed;
+  top: 35%;
+  z-index: 9999;
+
+  button:is(:hover, :focus, :active),
+  button:is(:hover, :focus, :active) a {
+    color: #ffffff;
+    background: #FFAA15;
+  }
+
+  button a {
+    color: #FFAA15;
+  }
+}
+
+.sec-title {
+  margin-bottom: 30px;
+
+  h2 {
+    display: block;
+    color: #FFAA15;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .desc-txt {
+    padding: 30px 0 0;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  .copyright {
+    padding: 15px 0;
+    background: #FFAA15;
+
+    p {
+      font-size: 16px;
+      margin: 0;
+      line-height: 1.5;
+      letter-spacing: 0;
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+
+}
+
+.signup-sec {
+  padding: 80px 0;
+}
+
+@media (max-width:767.9px) {
+  .head-sec {
+    background: #fff;
+    width: 100%;
+    display: block;
+    height: 60px;
+    position: fixed;
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+  }
+
+  .logo {
+    font-size: 35px;
+    top: -5px;
+    left: 15px;
+
+  }
+  .user-login-sec{
+    top: 12px;
+  }
+  .container {
+    padding: 110px 15px 0 15px;
+  }
+
+  .sec-title h2 {
+    font-size: 25px;
+  }
+
+  .signup-sec {
+
+    .react-tabs {
+      width: 90%;
+    }
+  }
+
+  footer .copyright p {
+    font-size: 12px;
+  }
+}
